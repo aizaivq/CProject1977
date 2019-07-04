@@ -1,0 +1,2 @@
+main:main.c
+	gcc -o main main.c -Iinclude  -L./  -lOpenGL32 -lfreeglutd -lglew32    -DWINDOWS
